@@ -18,6 +18,10 @@ namespace MethodsExercise
             string animal = Console.ReadLine();
             Console.WriteLine($"I love a good {animal} as well. Now, that is all of the time I have. Farewell");
 
+            Console.WriteLine(Methods.Add(5, 6, 99, 2));
+            Console.WriteLine(Methods.Subtract(108, 54, 9));
+            Console.WriteLine(Methods.Multiply(2, 2, 2, 2));
+            Console.WriteLine(Methods.Divide(16, 2, 2, 2));
         }
     }
 }
